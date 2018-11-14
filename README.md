@@ -16,7 +16,14 @@ Once installed, please download and open the Geocoder project in your IDE. The g
 * Process the address into coordinates
 * Give the coordinates as output
 
-For the processing of the coordinates we'll be making use of the Google Maps API, of which the code will be provided to you. 
+For the processing of the coordinates we'll be making use of the Google Maps API, of which the code will be provided to you.
+
+The assignment is to implement the classes *AddressInput* and *OutputCoordinates*, where the former should provide functionality for inserting an address, and the latter should get the output from the *Processor* class and provide functionality for exporting the results. 
+
+Please see the class diagram below (or alternatively click [this link](https://github.com/sebivenlo/java-modularity-migration/blob/master/img/) for the files):
+![Geocoder class diagram](https://github.com/sebivenlo/java-modularity-migration/blob/master/img/Class%20Diagram1.png "Nothing to see here..")
+
+
 
 ### Adding a local Maven dependency to your project
 To get a a local jar to become a Maven dependency, it has to be installed into the local .m2 repository on your PC. To do this, open your terminal/cmd, navigate to the directory where your snapshot jar file resides, and insert the following command: <br />
@@ -32,4 +39,3 @@ This chapter provides external links for solving problems we had during developm
 * [Directory of Java is invalid on Windows](https://stackoverflow.com/questions/1184056/unable-to-install-maven-on-windows-java-home-is-set-to-an-invalid-directory)
 * [Installing a local maven dependency](https://maven.apache.org/guides/mini/guide-3rd-party-jars-local.html)
 
-![Geocoder class diagram](https://github.com/sebivenlo/java-modularity-migration/blob/master/img/Class%20Diagram1.png "Nothing to see here..")
