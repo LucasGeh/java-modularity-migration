@@ -18,12 +18,16 @@ Once installed, please download and open the Geocoder project in your IDE. The g
 
 For the processing of the coordinates we'll be making use of the Google Maps API, of which the code will be provided to you.
 
-The assignment is to implement the classes *AddressInput* and *OutputCoordinates*, where the former should provide functionality for inserting an address, and the latter should get the output from the *Processor* class and provide functionality for exporting the results. 
+The assignment is to implement the classes *AddressInput* and *OutputCoordinates*, where the former should provide functionality for inserting an address, and the latter should get the output from the *Processor* class and provide functionality for exporting the results. Once that is done, create the snapshot jar file of your project (please see the next section).
 
 Please see the class diagram below (or alternatively click [this link](https://github.com/sebivenlo/java-modularity-migration/blob/master/img/) for the files):
 ![Geocoder class diagram](https://github.com/sebivenlo/java-modularity-migration/blob/master/img/Class%20Diagram1.png "Nothing to see here..")
 
-
+### Creating a snapshot jar of your Maven project
+To create a snapshot of your project, browse to your project directory and simply enter the following command:
+```shell
+mvn package
+```
 
 ### Adding a local Maven dependency to your project
 To get a a local jar to become a Maven dependency, it has to be installed into the local .m2 repository on your PC. To do this, open your terminal/cmd, navigate to the directory where your snapshot jar file resides, and insert the following command: <br />
