@@ -32,3 +32,4 @@ This chapter provides external links for solving problems we had during developm
 * [Directory of Java is invalid on Windows](https://stackoverflow.com/questions/1184056/unable-to-install-maven-on-windows-java-home-is-set-to-an-invalid-directory)
 * [Installing a local maven dependency](https://maven.apache.org/guides/mini/guide-3rd-party-jars-local.html)
 
+[Geocoder class diagram](https://github.com/sebivenlo/java-modularity-migration/blob/master/img/Class%20Diagram1.png "Nothing to see here..")
