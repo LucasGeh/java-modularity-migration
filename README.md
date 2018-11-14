@@ -3,8 +3,8 @@
 This GitHub contains the base and solution projects for the workshop on Java modularity.
 
 ## Prerequisites
-1. At least OpenJDK 11 -> https://jdk.java.net/11/
-2. An IDE that supports the corresponding Java version (IntelliJ is highly recommended) -> https://www.jetbrains.com/idea/download/
+1. [At least OpenJDK 11](https://jdk.java.net/11/)
+2. [An IDE that supports the corresponding Java version (IntelliJ is highly recommended)](https://www.jetbrains.com/idea/download/)
 3. Maven-install-plugin version 2.5 or higher
 
 ***
