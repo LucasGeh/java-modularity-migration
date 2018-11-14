@@ -16,12 +16,12 @@ Once installed, please download and open the Geocoder project in your IDE. The g
 * Process the address into coordinates
 * Give the coordinates as output
 
-For the processing of the coordinates we'll be making use of the Google Maps API, of which the code will be provided to you.
+For the processing of the coordinates we'll be making use of the Google Maps API, of which the code will be provided to you. 
 
 ### Adding a local Maven dependency to your project
-To get a a local jar to become a Maven dependency, it has to be installed into the local .m2 repository on your PC. To do this, open your terminal/cmd and insert the following command: <br />
+To get a a local jar to become a Maven dependency, it has to be installed into the local .m2 repository on your PC. To do this, open your terminal/cmd, navigate to the directory where your snapshot jar file resides, and insert the following command: <br />
 ```shell
-mvn install:install-file -Dfile=<path-to-file>
+mvn install
 ```
 
 ***
