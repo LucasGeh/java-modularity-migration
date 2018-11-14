@@ -1,4 +1,4 @@
-# java-modularity-migration
+# Java-Modularity-Migration
 
 This GitHub contains the base and solution projects for the workshop on Java modularity.
 
