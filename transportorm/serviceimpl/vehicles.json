@@ -1,0 +1,74 @@
+{
+  "cars": [
+    {
+      "brand": "Mercedes",
+      "propulsion_system": "gasoline",
+      "amount_doors": 5,
+      "wheel_diameter": 14,
+      "type": "AMG GT 63",
+      "horsepower": 639
+    },
+    {
+      "brand": "Lamborghini",
+      "type": "Gallardo",
+      "propulsion_system": "gasoline",
+      "amount_doors": 3,
+      "wheel_diameter": 14,
+      "horsepower": 519
+    },
+    {
+      "brand": "Maybach",
+      "type": "Exelero",
+      "propulsion_system": "gasoline",
+      "amount_doors": 3,
+      "wheel_diameter": 23,
+      "horsepower": 690
+    }
+  ],
+  "boats": [
+    {
+      "brand": "Lurssen",
+      "type": "SAINT NICOLAS",
+      "length": 70,
+      "amountDecks": 4,
+      "tonnage": 1938,
+      "topspeed": 16
+    },
+    {
+      "brand": "Dorries",
+      "type": "INFINITY",
+      "tonnage": 2900,
+      "length": 103.99,
+      "amountDecks": 3,
+      "topspeed": 18
+    }
+  ],
+  "bikes": [
+    {
+      "brand": "Cortina",
+      "type": "Speed",
+      "gender": "M",
+      "height": 56.61
+    },
+    {
+      "brand": "Cumberland",
+      "type": "Transport",
+      "gender": "F",
+      "height": 53
+    }
+  ],
+  "trucks": [
+    {
+      "brand": "MAN",
+      "type": "TGS26.400",
+      "max_weight": 13.6,
+      "horsepower": 400
+    },
+    {
+      "brand": "Scania",
+      "type": "P114",
+      "max_weight": 13.6,
+      "horsepower": 379
+    }
+  ]
+}
