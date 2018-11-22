@@ -12,11 +12,15 @@ public class VehicleService implements service.AdminService {
     public VehicleService() {
     }
 
-    //TODO: Create Data data object using see bookmark
 
     @Override
     public void printServiceInfo() {
         System.out.println("Provider for finding vehicles");
+    }
+
+    @Override
+    public void retrieveData() {
+        //Let subclasses handle this
     }
 
     public JsonObject getJsonData() {

@@ -1,5 +1,7 @@
 package service;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.ServiceLoader;
 
 /**
@@ -8,13 +10,15 @@ import java.util.ServiceLoader;
 public interface AdminService {
     public void printServiceInfo();
 
-    public static AdminService newInstance(){
-        ServiceLoader<AdminService> service=ServiceLoader.load(AdminService.class);
-        for(AdminService inter:service){
-            return inter;
-        }
-        return null;
+    public void retrieveData();
 
+    public static List<AdminService> newInstance(){
+        ServiceLoader<AdminService> service=ServiceLoader.load(AdminService.class);
+        List<AdminService> list = new ArrayList<>();
+        for(AdminService inter:service){
+            list.add(inter);
+        }
+        return list;
     }
 
 }

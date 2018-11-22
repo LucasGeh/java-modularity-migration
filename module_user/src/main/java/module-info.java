@@ -1,3 +1,3 @@
 module module.user {
-    requires Geocoder;
+    requires admin;
 }
