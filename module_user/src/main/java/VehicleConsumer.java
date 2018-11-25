@@ -1,23 +1,25 @@
 import service.AdminService;
 
-import java.security.Provider;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.stream.Collectors;
+import java.util.ServiceLoader;
 
 public class VehicleConsumer {
 
-    AdminService carService;
+    private AdminService carService;
+    private ServiceLoader<AdminService> loader;
 
     public VehicleConsumer() {
-        this.carService = AdminService.newInstance()
-                .stream()
-                .filter(p -> p.type().isAnnotationPresent(CarService.class))
-                .map(//TODO)
-                .collect(Collectors.toList());
+        System.out.println("Loading services");
+        loader = ServiceLoader.load(AdminService.class);
+        for (AdminService service: loader) {
+            if (service.getClass().getSimpleName().equals("CarService")) {
+                System.out.println(service.getClass().getSimpleName());
+                carService = service;
+            }
+        }
     }
 
     public void getCarData() {
         carService.retrieveData();
     }
+
 }

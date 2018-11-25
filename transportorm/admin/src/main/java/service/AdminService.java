@@ -12,13 +12,4 @@ public interface AdminService {
 
     public void retrieveData();
 
-    public static List<AdminService> newInstance(){
-        ServiceLoader<AdminService> service=ServiceLoader.load(AdminService.class);
-        List<AdminService> list = new ArrayList<>();
-        for(AdminService inter:service){
-            list.add(inter);
-        }
-        return list;
-    }
-
 }
