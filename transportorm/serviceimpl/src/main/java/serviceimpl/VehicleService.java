@@ -3,6 +3,9 @@ package serviceimpl;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.google.gson.stream.JsonReader;
+import org.jetbrains.annotations.Contract;
+import org.jetbrains.annotations.NotNull;
+import service.AdminService;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -26,12 +29,18 @@ public class VehicleService implements service.AdminService {
     public JsonObject getJsonData() {
         JsonParser parser = new JsonParser();
         try {
-            JsonObject jsonObject = (JsonObject) parser.parse(new JsonReader(new FileReader("vehicles.json")));
-            return jsonObject;
+            return (JsonObject) parser.parse(new JsonReader(new FileReader("vehicles.json")));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
         return null;
+    }
+
+
+    @NotNull
+    @Contract(" -> new")
+    public static AdminService provider() {
+        return new VehicleService();
     }
 
 

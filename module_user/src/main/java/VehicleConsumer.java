@@ -10,6 +10,7 @@ public class VehicleConsumer {
     public VehicleConsumer() {
         System.out.println("Loading services");
         loader = ServiceLoader.load(AdminService.class);
+        System.out.println("Has next?: " + loader.iterator().hasNext());
         for (AdminService service: loader) {
             if (service.getClass().getSimpleName().equals("CarService")) {
                 System.out.println(service.getClass().getSimpleName());
