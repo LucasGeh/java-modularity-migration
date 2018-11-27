@@ -38,9 +38,11 @@ mvn install
 ***
 
 ## TransportOrm
-With the introduction of modules in Java 9, the use of services has become very powerful. This small exercise is aimed at getting you familiar with its structure. To get started first get the project contained in the "transportorm" folder. In there, we will *provide* (pun not initially intended...) you with a base project and a JSON file containing vehicles. the purpose is to create providers for every unique vehicle type, a simple print line or so will suffice for this exercise.
+With the introduction of modules in Java 9, the use of services has become very powerful. This small exercise is aimed at getting you familiar with its structure. To get started first get the projects contained in the "transportorm" folder. In there, we will *provide* (pun not initially intended...) you with a base project and a JSON file containing vehicles. the purpose is to create providers for every unique vehicle type, a simple print line or so will suffice for this exercise.
 
 Start out with defining the service in the "admin" module. Once that has been done, continue by implementing the providers in the "serviceimpl" module. 
+
+![Service structure](https://github.com/sebivenlo/java-modularity-migration/blob/master/img/Servicesample.PNG "Service sample")
 
 Once the providers have been correctly implemented, checkout the module user project as well. In here you will be implementing the consumer module, where it should find a specific service and make use of its functionality in your own creative way.
 
