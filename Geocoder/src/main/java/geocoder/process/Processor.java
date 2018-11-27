@@ -1,8 +1,8 @@
-package madness.geocoder.process;
+package geocoder.process;
 
 import com.google.maps.GeocodingApi;
-import madness.geocoder.output.OutputCoordinates;
-import madness.geocoder.input.AddressInput;
+import geocoder.output.OutputCoordinates;
+import geocoder.input.AddressInput;
 import com.google.maps.GeoApiContext;
 import com.google.maps.model.GeocodingResult;
 
