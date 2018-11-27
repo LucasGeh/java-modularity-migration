@@ -47,8 +47,9 @@ Start out with defining the service in the "admin" module. Once that has been do
 Once the providers have been correctly implemented, checkout the module user project as well. In here you will be implementing the consumer module, where it should find a specific service and make use of its functionality in your own creative way.
 
 ## Troubleshooting 
-This chapter provides external links for solving problems we had during development/installation
+This chapter provides potential solutions for solving problems we had during development/installation
 
 * [Directory of Java is invalid on Windows](https://stackoverflow.com/questions/1184056/unable-to-install-maven-on-windows-java-home-is-set-to-an-invalid-directory)
 * [Installing a local maven dependency](https://maven.apache.org/guides/mini/guide-3rd-party-jars-local.html)
-
+* [Setting javac target release](https://stackoverflow.com/questions/12900373/idea-javac-source-release-1-7-requires-target-release-1-7/12900859#12900859) Settings can be openend using CTRL+ALT+S
+* If java 9 keywords (such as module) do not work, try checking the project's JDK version using CTRL+SHIFT+ALT+S.
