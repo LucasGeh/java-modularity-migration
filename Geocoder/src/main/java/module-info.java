@@ -1,8 +1,8 @@
-module madness.modularity.migration {
+module geocoder_module {
     // exports
-    exports madness.geocoder.output;
-    exports madness.geocoder.input;
-    exports madness.geocoder.process;
+    exports geocoder.output;
+    exports geocoder.input;
+    exports geocoder.process;
 
     //imports
     requires google.maps.services;
