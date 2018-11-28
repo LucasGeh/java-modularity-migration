@@ -7,6 +7,12 @@ This GitHub contains the base and solution projects for the workshop on Java mod
 2. [An IDE that supports the corresponding Java version (IntelliJ is highly recommended)](https://www.jetbrains.com/idea/download/)
 3. Maven-install-plugin version 2.5 or higher
 
+```shell
+sudo add-apt-repository ppa:linuxuprising/java
+sudo apt update
+sudo apt install oracle-java11-installer
+```
+
 ***
 
 ## Setting up - Geocoder project
