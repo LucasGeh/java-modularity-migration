@@ -1,4 +1,4 @@
-public class geocoderMain {
+public class GeocoderMain {
     public static void main(String[] args) {
         // TODO import/require geocoder module and its packages
         // TODO use AddressInput to create input
