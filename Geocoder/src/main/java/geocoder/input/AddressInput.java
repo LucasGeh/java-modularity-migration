@@ -1,4 +1,4 @@
-package geocoder.input;
+package Geocoder.Input;
 
 public class AddressInput {
     private String input;

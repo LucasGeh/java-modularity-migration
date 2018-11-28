@@ -1,8 +1,8 @@
-package geocoder.process;
+package Geocoder.Process;
 
 import com.google.maps.GeocodingApi;
-import geocoder.output.OutputCoordinates;
-import geocoder.input.AddressInput;
+import Geocoder.Output.OutputCoordinates;
+import Geocoder.Input.AddressInput;
 import com.google.maps.GeoApiContext;
 import com.google.maps.model.GeocodingResult;
 

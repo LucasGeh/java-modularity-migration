@@ -1,8 +1,8 @@
 module geocoder_module {
     // exports
-    exports geocoder.output;
-    exports geocoder.input;
-    exports geocoder.process;
+    exports Geocoder.Output;
+    exports Geocoder.Input;
+    exports Geocoder.Process;
 
     //imports
     requires google.maps.services;

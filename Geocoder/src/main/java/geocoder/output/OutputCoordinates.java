@@ -1,4 +1,4 @@
-package geocoder.output;
+package Geocoder.Output;
 
 public class OutputCoordinates {
     private final  String lat;
