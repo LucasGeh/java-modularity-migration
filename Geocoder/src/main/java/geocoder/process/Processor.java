@@ -1,4 +1,4 @@
-package geocoder.process;
+package Geocoder.Process;
 
 import com.google.maps.GeocodingApi;
 import geocoder.output.OutputCoordinates;
